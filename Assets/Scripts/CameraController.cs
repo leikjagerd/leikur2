@@ -9,6 +9,6 @@ public class CameraController : MonoBehaviour
     
     void Update()
     {
-        camera.transform.position = new Vector3(ship.transform.position.x,ship.transform.position.y,-10);
+        camera.transform.position = new Vector3(ship.transform.position.x,ship.transform.position.y,-10); // Lætur myndavélina elta geimskipið
     }
 }
